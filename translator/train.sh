@@ -1,4 +1,4 @@
-dataset=../data/cs
+dataset=../translator_data/data/cs
 python3 train.py --token_vocab ${dataset}/token_vocab\
                 --concept_vocab ${dataset}/concept_vocab\
                 --predictable_token_vocab ${dataset}/predictable_token_vocab\
